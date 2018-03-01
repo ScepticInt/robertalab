@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"lastupdated": "2018-04-03 12:19:42.464103",
 =======
 =======
@@ -13,6 +14,8 @@
 >>>>>>> #756 implmented Arduino Configuration
 =======
 >>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
+=======
+>>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
 <<<<<<< HEAD
 		"lastupdated": "2018-03-21 16:54:50.204886",
 =======
@@ -22,6 +25,8 @@
 >>>>>>> #756 implmented Arduino Configuration
 =======
 >>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
+=======
+>>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
 <<<<<<< HEAD
 		"lastupdated": "2018-03-14 17:18:07.865391",
 =======
@@ -54,8 +59,17 @@
 =======
 		"lastupdated": "2018-02-28 14:24:11.875979",
 >>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
+<<<<<<< HEAD
 >>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
+<<<<<<< HEAD
 >>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
+=======
+=======
+=======
+		"lastupdated": "2018-03-01 17:37:58.578657",
+>>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
+>>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
+>>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
 		"locale": "en",
 		"messagedocumentation" : "qqq"
 	},
