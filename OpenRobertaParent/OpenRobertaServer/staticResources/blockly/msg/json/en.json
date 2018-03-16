@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"lastupdated": "2018-04-03 12:19:42.464103",
 =======
 =======
@@ -16,6 +17,8 @@
 >>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
 =======
 >>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
+=======
+>>>>>>> #755 added test names for the sensor blocks in program
 <<<<<<< HEAD
 		"lastupdated": "2018-03-21 16:54:50.204886",
 =======
@@ -69,7 +72,13 @@
 		"lastupdated": "2018-03-01 17:37:58.578657",
 >>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
 >>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
+<<<<<<< HEAD
 >>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
+=======
+=======
+		"lastupdated": "2018-03-16 13:07:19.406505",
+>>>>>>> #755 added test names for the sensor blocks in program
+>>>>>>> #755 added test names for the sensor blocks in program
 		"locale": "en",
 		"messagedocumentation" : "qqq"
 	},
@@ -482,11 +491,7 @@
 	"ULTRASONIC_TOOLTIP": "Represents an ultrasonic sensor.",
 	"COLOUR_TOOLTIP": "Represents a colour sensor.",
 	"INFRARED_TOOLTIP": "Represents an infrared sensor.",
-<<<<<<< HEAD
 	"IRSEEKER_TOOLTIP": "Represents a HiTechnic NXT IRSeeker V2 sensor.",
-=======
-	"IRSEEKER_TOOLTIP": "Represents a HighTechnic NXT IRSeeker V2 sensor.",
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
 	"TOUCH_TOOLTIP": "Is the touch sensor pressed?",
 	"GYRO_TOOLTIP": "Represents a gyro sensor.",
 	"FLAME_TOOLTIP": "Represents a flame sensor.",
@@ -939,10 +944,7 @@
 	"SENSOR_COMPASS": "compass sensor",
 	"SENSOR_COMPASS_EV3": "HT compass sensor",
 	"COMPASS_TOOLTIP": "Represents a compass sensor.",
-<<<<<<< HEAD
 	"COMPASS_TOOLTIP_EV3": "Represents a HiTechnic NXT compass sensor.",
-=======
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
 	"COMPASS_CALIBRATE_TOOLTIP": "Calibrates the compass. Turn the compass sensor VERY slowly for two times (about 40 seconds).",
 	"SOUND_TOOLTIP": "Represents a sound sensor.",
 	"MOTOR_ARDU_TOOLTIP": "Represents a Bot'n Roll chassis motor.",
