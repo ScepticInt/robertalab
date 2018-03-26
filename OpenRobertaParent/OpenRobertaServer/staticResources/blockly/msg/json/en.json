@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"lastupdated": "2018-04-03 12:19:42.464103",
 =======
 =======
@@ -79,6 +80,9 @@
 		"lastupdated": "2018-03-16 13:07:19.406505",
 >>>>>>> #755 added test names for the sensor blocks in program
 >>>>>>> #755 added test names for the sensor blocks in program
+=======
+		"lastupdated": "2018-03-26 11:45:43.920427",
+>>>>>>> #756 added configuration toolbox with all sensors and actors
 		"locale": "en",
 		"messagedocumentation" : "qqq"
 	},
@@ -1354,35 +1358,30 @@
 	"SENSOR_GESTURE_SHAKE_GETSAMPLE_TOOLTIP": "Returns »true« if it is shaken.",
 	"SENSOR_GESTURE_FREEFALL_GETSAMPLE_TOOLTIP": "Returns »true« if it is free falling.",
 	"RIGHT": "right",
-<<<<<<< HEAD
-<<<<<<< HEAD
-	"LEFT": "left",
-	"ORA_ROBOT_PUSH_RUN_CALLIOPE2016": "Your program »$« is downloaded to Calliope, press the reset button to start it!",
-	"ORA_ROBOT_PUSH_RUN_NXT": "Your program »$« is downloaded to the NXT, start it on the robot!",
-	"ERROR_MISSING_PARAMETER": "An input value is missing!",
-	"ERROR_MISSING_RETURN": "The function return value is missing!"
-=======
-	"LEFT": "left"
->>>>>>> #745 added base Uno files, configuration draft
-=======
 	"LEFT": "left",
 	"ORA_ROBOT_PUSH_RUN_CALLIOPE2016": "Your program »$« is downloaded to Calliope, press the reset button to start it!",
 	"ORA_ROBOT_PUSH_RUN_NXT": "Your program »$« is downloaded to the NXT, start it on the robot!",
 	"OUTPUT": "output",
 	"INPUT": "input",
-	"MOTION_SENSOR": "motion sensor",
-	"POTENTIOMETER": "potentiometer",
+	"SENSOR_MOTION": "motion sensor",
+	"SENSOR_POTENTIOMETER": "potentiometer",
 	"SERVO_MOTOR": "servo motor",
-	"PULSE": "pulse",
+	"SENSOR_PULSE": "pulse sensor",
 	"RELAY": "relay",
-	"HUMIDITY": "humidity",
+	"SENSOR_HUMIDITY": "humidity sensor",
 	"AND": "and",
 	"STEP_MOTOR": "step motor",
-<<<<<<< HEAD
-	"SENSOR_MOISTURE": "moisture sensor"
->>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
-=======
 	"SENSOR_MOISTURE": "moisture sensor",
-	"MODE_MOISTURE": "moisture"
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
+	"MODE_MOISTURE": "moisture",
+	"SENSOR_ROTATION": "rotation sensor",
+	"SENSOR_DROP": "drop sensor",
+	"SENSOR_RFID": "RFID reader",
+	"ACTION_LCD": "LCD",
+	"ACTION_LCDI2C": "LCD",
+	"ACTION_LED": "LED",
+	"ACTION_PLAY": "play",
+	"ACTION_RELAY": "relay",
+	"ACTION_RGBLED": "RGB LED",
+	"ACTION_STEPMOTOR": "step motor",
+	"ACTION_SERVO": "servo motor"
 }

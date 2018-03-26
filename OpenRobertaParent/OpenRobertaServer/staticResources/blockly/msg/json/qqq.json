@@ -1271,35 +1271,30 @@
 	"SENSOR_GESTURE_SHAKE_GETSAMPLE_TOOLTIP": "",
 	"SENSOR_GESTURE_FREEFALL_GETSAMPLE_TOOLTIP": "",
 	"RIGHT": "",
-<<<<<<< HEAD
-<<<<<<< HEAD
-	"LEFT": "",
-	"ORA_ROBOT_PUSH_RUN_CALLIOPE2016": "",
-	"ORA_ROBOT_PUSH_RUN_NXT": "",
-	"ERROR_MISSING_PARAMETER": "",
-	"ERROR_MISSING_RETURN": ""
-=======
-	"LEFT": ""
->>>>>>> #745 added base Uno files, configuration draft
-=======
 	"LEFT": "",
 	"ORA_ROBOT_PUSH_RUN_CALLIOPE2016": "",
 	"ORA_ROBOT_PUSH_RUN_NXT": "",
 	"OUTPUT": "",
 	"INPUT": "",
-	"MOTION_SENSOR": "",
-	"POTENTIOMETER": "",
+	"SENSOR_MOTION": "",
+	"SENSOR_POTENTIOMETER": "",
 	"SERVO_MOTOR": "",
-	"PULSE": "",
+	"SENSOR_PULSE": "",
 	"RELAY": "",
-	"HUMIDITY": "",
+	"SENSOR_HUMIDITY": "",
 	"AND": "",
 	"STEP_MOTOR": "",
-<<<<<<< HEAD
-	"SENSOR_MOISTURE": ""
->>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
-=======
 	"SENSOR_MOISTURE": "",
-	"MODE_MOISTURE": ""
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
+	"MODE_MOISTURE": "",
+	"SENSOR_ROTATION": "",
+	"SENSOR_DROP": "",
+	"SENSOR_RFID": "",
+	"ACTION_LCD": "",
+	"ACTION_LCDI2C": "",
+	"ACTION_LED": "",
+	"ACTION_PLAY": "",
+	"ACTION_RELAY": "",
+	"ACTION_RGBLED": "",
+	"ACTION_STEPMOTOR": "",
+	"ACTION_SERVO": ""
 }
