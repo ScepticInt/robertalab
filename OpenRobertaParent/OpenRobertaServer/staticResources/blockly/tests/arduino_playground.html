@@ -44,19 +44,8 @@
 <script src="../blocks/variables.js"></script>
 <script src="../blocks/procedures.js"></script>
 <script src="../blocks/robActions.js"></script>
-<script src="../blocks/robBrick.js"></script>
 <script src="../blocks/robColour.js"></script>
-<script src="../blocks/robCommunication.js"></script>
 <script src="../blocks/robControls.js"></script>
-<script src="../blocks/arduActions.js"></script>
-<script src="../blocks/arduSensors.js"></script>
-<script src="../blocks/makeblockSensors.js"></script>
-<script src="../blocks/makeblockActions.js"></script>
-<script src="../blocks/makeblockColours.js"></script>
-<script src="../blocks/makeblockImage.js"></script>
-<script src="../blocks/bob3Sensors.js"></script>
-<script src="../blocks/bob3Actions.js"></script>
-<script src="../blocks/bob3Communication.js"></script>
 <script src="../blocks/robSensors.js"></script>
 <script src="../blocks/robSensorDefinitions.js"></script>
 <link rel="stylesheet" type="text/css" href="typicons.css"></link>
@@ -270,6 +259,17 @@ h1 {
 		<block type="robSensors_light_getSample"></block>
 		<block type="robSensors_ultrasonic_getSample"></block>
 		<block type="robSensors_moisture_getSample"></block>
+    <block type="robSensors_key_getSample"></block>
+    <block type="robSensors_timer_getSample"></block>
+    <block type="robSensors_temperature_getSample"></block>
+    <block type="robSensors_potentiometer_getSample"></block>
+    <block type="robSensors_infrared_getSample"></block>
+    <block type="robSensors_humidity_getSample"></block>
+    <block type="robSensors_encoder_getSample"></block>
+    <block type="robSensors_motion_getSample"></block>
+    <block type="robSensors_drop_getSample"></block>
+    <block type="robSensors_pulse_getSample"></block>
+    <block type="robSensors_rfid_getSample"></block>
 	</category>
 	<category name="TOOLBOX_CONTROL" svg="true">
 		<category name="TOOLBOX_DECISION" svg="true">
@@ -319,7 +319,7 @@ h1 {
 				<value name="WAIT0">
 					<block type="logic_compare">
 						<value name="A">
-							<block type="robSensors_getSample_ardu"></block>
+							<block type="robSensors_getSample"></block>
 						</value>
 						<value name="B">
 							<block type="logic_boolean"></block>

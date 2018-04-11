@@ -1,88 +1,7 @@
 {
 	"@metadata": {
 		"author": "Ellen Spertus <ellen.spertus@gmail.com>",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-		"lastupdated": "2018-04-03 12:19:42.464103",
-=======
-=======
->>>>>>> #745 chanhed arduino configuration blokcs so they would be always enabled
-=======
->>>>>>> #756 implmented Arduino Configuration
-=======
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
-=======
->>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
-=======
->>>>>>> #755 added test names for the sensor blocks in program
-<<<<<<< HEAD
-		"lastupdated": "2018-03-21 16:54:50.204886",
-=======
-=======
->>>>>>> #745 chanhed arduino configuration blokcs so they would be always enabled
-=======
->>>>>>> #756 implmented Arduino Configuration
-=======
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
-=======
->>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
-<<<<<<< HEAD
-		"lastupdated": "2018-03-14 17:18:07.865391",
-=======
-		"lastupdated": "2018-02-07 16:55:31.254062",
->>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
-<<<<<<< HEAD
->>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
-<<<<<<< HEAD
->>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
-=======
-=======
-=======
-		"lastupdated": "2018-02-16 13:54:35.119105",
->>>>>>> #745 chanhed arduino configuration blokcs so they would be always enabled
-<<<<<<< HEAD
->>>>>>> #745 chanhed arduino configuration blokcs so they would be always enabled
-<<<<<<< HEAD
->>>>>>> #745 chanhed arduino configuration blokcs so they would be always enabled
-=======
-=======
-=======
-		"lastupdated": "2018-02-21 12:28:51.856000",
->>>>>>> #756 implmented Arduino Configuration
-<<<<<<< HEAD
->>>>>>> #756 implmented Arduino Configuration
-<<<<<<< HEAD
->>>>>>> #756 implmented Arduino Configuration
-=======
-=======
-=======
-		"lastupdated": "2018-02-28 14:24:11.875979",
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
-<<<<<<< HEAD
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
-<<<<<<< HEAD
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
-=======
-=======
-=======
-		"lastupdated": "2018-03-01 17:37:58.578657",
->>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
->>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
-<<<<<<< HEAD
->>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
-=======
-=======
-		"lastupdated": "2018-03-16 13:07:19.406505",
->>>>>>> #755 added test names for the sensor blocks in program
->>>>>>> #755 added test names for the sensor blocks in program
-=======
-		"lastupdated": "2018-03-26 11:45:43.920427",
->>>>>>> #756 added configuration toolbox with all sensors and actors
+		"lastupdated": "2018-04-11 14:56:37.843909",
 		"locale": "en",
 		"messagedocumentation" : "qqq"
 	},
@@ -1373,7 +1292,6 @@
 	"STEP_MOTOR": "step motor",
 	"SENSOR_MOISTURE": "moisture sensor",
 	"MODE_MOISTURE": "moisture",
-	"SENSOR_ROTATION": "rotation sensor",
 	"SENSOR_DROP": "drop sensor",
 	"SENSOR_RFID": "RFID reader",
 	"ACTION_LCD": "LCD",
@@ -1383,5 +1301,30 @@
 	"ACTION_RELAY": "relay",
 	"ACTION_RGBLED": "RGB LED",
 	"ACTION_STEPMOTOR": "step motor",
-	"ACTION_SERVO": "servo motor"
+	"ACTION_SERVO": "servo motor",
+	"MOISTURE_TOOLTIP": "Represents a moisture sensor.",
+	"POTENTIOMETER_TOOLTIP": "Represents a potentiometer .",
+	"TEMPERATURE_TOOLTIP": "Represents a temperature sensor.",
+	"HUMIDITY_TOOLTIP": "Represents a humidity sensor.",
+	"ENCODER_TOOLTIP": "Represents an encoder.",
+	"MOTION_TOOLTIP": "Represents a motion sensor.",
+	"PULSE_TOOLTIP": "Represents a pulse sensor.",
+	"DROP_TOOLTIP": "Represents a drop sensor.",
+	"RFID_TOOLTIP": "Represents an RFID reader.",
+	"KEY_TOOLTIP": "Represents a button.",
+	"LCD_TOOLTIP": "Represents an LCD display.",
+	"LCDI2C_TOOLTIP": "Represents an LCD I2C display.",
+	"PLAY_TOOLTIP": "Represents a buzzer.",
+	"RELAY_TOOLTIP": "Represents a relay.",
+	"RGBLED_TOOLTIP": "Represents an RGB LED.",
+	"LED_TOOLTIP": "Represents an LED.",
+	"STEPMOTOR_TOOLTIP": "Represents a step motor.",
+	"SERVO_TOOLTIP": "Represents a servo motor.",
+	"SENSOR_MOISTURE_GETSAMPLE_TOOLTIP": "Gets the current reading from the moisture sensor.",
+	"SENSOR_POTENTIOMETER_GETSAMPLE_TOOLTIP": "Gets the current reading from the potentiometer.",
+	"SENSOR_HUMIDITY_GETSAMPLE_TOOLTIP": "Gets the current reading from the humidity sensor.",
+	"SENSOR_MOTION_GETSAMPLE_TOOLTIP": "Gets the current reading from the motion sensor.",
+	"SENSOR_DROP_GETSAMPLE_TOOLTIP": "Gets the current reading from the drop sensor.",
+	"SENSOR_PULSE_GETSAMPLE_TOOLTIP": "Gets the current reading from the pulse sensor.",
+	"SENSOR_RFID_GETSAMPLE_TOOLTIP": "Gets the current reading from the RFID reader."
 }

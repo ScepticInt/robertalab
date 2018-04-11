@@ -23,6 +23,7 @@ public enum SensorPort implements ISensorPort {
     BOTH( "3" ),
     MOTOR_LEFT( "2" ),
     MOTOR_RIGHT( "1" ),
+    //TODO: add this as denum
     TEST1( "Test1" ),
     TEST2( "Test2" );
 

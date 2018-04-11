@@ -16,6 +16,7 @@ import de.fhg.iais.roberta.syntax.actors.arduino.mbot.LedOffAction;
 import de.fhg.iais.roberta.syntax.actors.arduino.mbot.LedOnAction;
 import de.fhg.iais.roberta.syntax.check.hardware.RobotUsedHardwareCollectorVisitor;
 import de.fhg.iais.roberta.syntax.expressions.arduino.RgbColor;
+import de.fhg.iais.roberta.syntax.sensor.generic.EncoderSensor;
 import de.fhg.iais.roberta.util.Quadruplet;
 import de.fhg.iais.roberta.visitors.arduino.ArduinoAstVisitor;
 
@@ -77,4 +78,8 @@ public class UsedHardwareCollectorVisitor extends RobotUsedHardwareCollectorVisi
         return null;
     }
 
+    @Override
+    public Void visitEncoderSensor(EncoderSensor<Void> encoderSensor) {
+        return null;
+    }
 }

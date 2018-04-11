@@ -19,8 +19,8 @@ import de.fhg.iais.roberta.visitor.AstVisitor;
 import de.fhg.iais.roberta.visitor.sensor.AstSensorsVisitor;
 
 /**
- * This class represents the <b>robSensors_touch_isPressed</b> blocks from Blockly into the AST (abstract syntax tree). Object from this class will generate
- * code for checking if the sensor is pressed.<br/>
+ * This class represents the <b>robSensors_compass_getSample</b> blocks from Blockly into the AST (abstract syntax tree). Object from this class will generate
+ * code for checking the sensor's output.<br/>
  * <br>
  * The client must provide the {@link SensorPort}.<br>
  * <br>
@@ -43,7 +43,7 @@ public class CompassSensor<V> extends ExternalSensor<V> {
      * @return read only object of {@link CompassSensor}
      */
     public static <V> CompassSensor<V> make(SensorMetaDataBean sensorMetaDataBean, BlocklyBlockProperties properties, BlocklyComment comment) {
-        return new CompassSensor<V>(sensorMetaDataBean, properties, comment);
+        return new CompassSensor<>(sensorMetaDataBean, properties, comment);
     }
 
     @Override

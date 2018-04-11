@@ -35,8 +35,15 @@ import de.fhg.iais.roberta.syntax.expressions.arduino.RgbColor;
 import de.fhg.iais.roberta.syntax.lang.blocksequence.MainTask;
 import de.fhg.iais.roberta.syntax.sensor.generic.BrickSensor;
 import de.fhg.iais.roberta.syntax.sensor.generic.ColorSensor;
+import de.fhg.iais.roberta.syntax.sensor.generic.DropSensor;
+import de.fhg.iais.roberta.syntax.sensor.generic.EncoderSensor;
+import de.fhg.iais.roberta.syntax.sensor.generic.HumiditySensor;
 import de.fhg.iais.roberta.syntax.sensor.generic.LightSensor;
 import de.fhg.iais.roberta.syntax.sensor.generic.MoistureSensor;
+import de.fhg.iais.roberta.syntax.sensor.generic.MotionSensor;
+import de.fhg.iais.roberta.syntax.sensor.generic.PulseSensor;
+import de.fhg.iais.roberta.syntax.sensor.generic.RfidSensor;
+import de.fhg.iais.roberta.syntax.sensor.generic.TemperatureSensor;
 import de.fhg.iais.roberta.syntax.sensor.generic.UltrasonicSensor;
 import de.fhg.iais.roberta.syntax.sensor.generic.VoltageSensor;
 import de.fhg.iais.roberta.util.dbc.DbcException;
@@ -198,12 +205,6 @@ public class CppVisitor extends ArduinoVisitor implements ArduinoAstVisitor<Void
     }
 
     @Override
-    public Void visitVoltageSensor(VoltageSensor<Void> relay) {
-
-        return null;
-    }
-
-    @Override
     public Void visitUltrasonicSensor(UltrasonicSensor<Void> ultrasonicSensor) {
         this.sb.append("pulseIn(_echo_" + ultrasonicSensor.getPort().getPortNumber() + ", HIGH)*_signalToDistance");
         return null;
@@ -212,6 +213,54 @@ public class CppVisitor extends ArduinoVisitor implements ArduinoAstVisitor<Void
     @Override
     public Void visitMoistureSensor(MoistureSensor<Void> moistureSensor) {
         this.sb.append("analogRead(_moisturePin_" + moistureSensor.getPort().getPortNumber() + ")");
+        return null;
+    }
+
+    @Override
+    public Void visitTemperatureSensor(TemperatureSensor<Void> temperatureSensor) {
+        this.sb.append("temperature");
+        return null;
+    }
+
+    @Override
+    public Void visitEncoderSensor(EncoderSensor<Void> encoderSensor) {
+        this.sb.append("encoder");
+        return null;
+    }
+
+    @Override
+    public Void visitVoltageSensor(VoltageSensor<Void> voltageSensor) {
+        this.sb.append("voltage");
+        return null;
+    }
+
+    @Override
+    public Void visitHumiditySensor(HumiditySensor<Void> humiditySensor) {
+        this.sb.append("humidity");
+        return null;
+    }
+
+    @Override
+    public Void visitDropSensor(DropSensor<Void> dropSensor) {
+        this.sb.append("drop");
+        return null;
+    }
+
+    @Override
+    public Void visitPulseSensor(PulseSensor<Void> pulseSensor) {
+        this.sb.append("pulse");
+        return null;
+    }
+
+    @Override
+    public Void visitRfidSensor(RfidSensor<Void> rfidSensor) {
+        this.sb.append("rfid");
+        return null;
+    }
+
+    @Override
+    public Void visitMotionSensor(MotionSensor<Void> motionSensor) {
+        this.sb.append("motion");
         return null;
     }
 
